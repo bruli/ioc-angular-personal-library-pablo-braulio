@@ -1,59 +1,43 @@
-# IocAngularPersonalLibraryPabloBraulio
+# Personal Library
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.0.
+## Autor/a
 
-## Development server
+Pablo Braulio
 
-To start a local development server, run:
+## Descripció
 
-```bash
-ng serve
-```
+Personal Library és una aplicació per organitzar una biblioteca personal i fer un seguiment dels llibres pendents, en lectura i acabats.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+El projecte es desenvolupa dins de l’assignatura de Programació avançada de l’IOC.
 
-## Code scaffolding
+## Versions utilitzades
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Angular i Angular CLI: 22.x.
+- Node.js: 24.15.0.
+- Gestor de paquets: npm.
+- Estils: SCSS.
 
-```bash
-ng generate component component-name
-```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Com crear i executar el projecte
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+El projecte s’ha creat amb aquesta comanda:
 
 ```bash
-ng build
+ng new ioc-angular-personal-library-pablo-braulio --directory=. --routing --style=scss --ssr=false --standalone=true --file-name-style-guide=2016 --skip-git=true --package-manager=npm
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Estat de l'EAC1
 
-## Running unit tests
+Versió inicial de preparació de l’entorn i presentació de l’aplicació:
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+- Projecte Angular amb routing i estils SCSS.
+- Nom de l’aplicació definit en una propietat pública i mostrat amb interpolació.
+- Pàgina inicial amb títol, autor i descripció.
+- Targeta amb les dades bàsiques del projecte.
+- Nota complementària amb un element `aside`.
+- Text obligatori «Projecte base llest».
+- Disseny senzill amb layout flex i separació entre blocs.
 
-```bash
-ng test
-```
+## Enllaç del repositori
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[Repositori de Personal Library](https://github.com/bruli/ioc-angular-personal-library-pablo-braulio)

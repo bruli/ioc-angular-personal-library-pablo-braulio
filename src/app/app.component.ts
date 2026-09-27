@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
 })
 export class App {
-  protected readonly title = signal('ioc-angular-personal-library-pablo-braulio');
+  public readonly title = signal('Personal library');
 }
